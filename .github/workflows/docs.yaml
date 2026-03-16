@@ -14,4 +14,7 @@ jobs:
           submodules: recursive
 
       - name: Build docs
-        uses: TinyTapeout/tt-gds-action/docs@ttsky26a
+        uses: pindakaasbot/tt-gds-action/docs@ttihp26a-cmos5l
+        with:
+          tools-repo: htfab/tt-support-tools
+          tools-ref: cmos
